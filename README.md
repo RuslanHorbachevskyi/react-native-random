@@ -16,7 +16,7 @@ import { getRandomNumber } from 'react-native-random';
 
 // ...
 
-const result = getRandomNumber(3, 7);
+const result = await getRandomNumber(3, 7);
 ```
 
 
