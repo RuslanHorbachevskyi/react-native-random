@@ -1,5 +1,7 @@
-import Random from './NativeRandom';
+import { NativeModules } from 'react-native'
 
-export function multiply(a: number, b: number): number {
-  return Random.multiply(a, b);
+const { Random } = NativeModules
+
+export function getRandomNumber(min: number, max: number): Promise<number> {
+  return Random.getRandomNumber(min, max)
 }

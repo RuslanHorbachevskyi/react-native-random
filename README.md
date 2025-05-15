@@ -12,11 +12,11 @@ npm install react-native-random
 
 
 ```js
-import { multiply } from 'react-native-random';
+import { getRandomNumber } from 'react-native-random';
 
 // ...
 
-const result = multiply(3, 7);
+const result = getRandomNumber(3, 7);
 ```
 
 
